@@ -8,18 +8,19 @@ $(document).ready(function(){
     for (var index = 0; index <= numberInput; index +=1){
       resultNumbers.push(index);
     };
-    // resultNumbers = resultNumbers.map(function(resultNumber){
-    //   for (var index = 0; index <= resu; index +=1){
-    //     resultNumbers += index
-    //      if (resultNumber[0] === 0) {
-    //       return resultNumber
 
-      // for (var index = 0; index <= resultNumbers.length; index +=1){
-      //   if (resultNumber[0] === 0) {
-      //     return resultNumber
-      //   }
-      // });
-      // console.log(numberInput);
+    var resultStrings = resultNumbers.join('');
+    for (var index = 0; index <= resultStrings.length; index +=1)
+      if (resultString === 1) {
+        return "Beep!"
+      } else if (resultString === 2){
+        return "Boop!"
+      }
+        else if (resultString === resultString){
+        return resultString
+      }
+    });
       console.log(resultNumbers);
+      console.log(resultStrings);
     });
   });
