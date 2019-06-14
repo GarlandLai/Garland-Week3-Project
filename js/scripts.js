@@ -32,7 +32,7 @@ $(document).ready(function(){
         }
   };
 });
-$("#output").text(resultNumbers);
+$("#output h3").text(resultNumbers);
 
   // var rangeResult = resultStrings
 });
