@@ -18,14 +18,17 @@ $(document).ready(function(){
 
 //Business interface logic
 
-    resultNumbers = resultNumbers.map(function(str) {
+    resultNumbers = resultNumbers.map(function(num) {
       for (var index = 0; index <= resultNumbers.length; index +=1) {
-        if (index === 1) {
-          return "Beep!"
-        } else if (index === 2){
-            return "Boop!"
-        } else if (index === index){
-            return index
+        if (num === 1) {
+          return " Beep!"
+        } else if (num === 2){
+            return " Boop!"
+        } else if (num === 3) {
+          return " I'm sorry, Dave. I'm afraid I can't do that."
+        }
+        else if (num === index){
+            return num
         }
   };
 });
