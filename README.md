@@ -26,7 +26,7 @@ _This website will take a number input and return a range from 0 to the number i
 
 ## Known Bugs
 
-*
+* _Not able to find out how to apply on numbers with multiple digits._
 
 ## Support and contact details
 

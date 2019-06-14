@@ -7,6 +7,7 @@ $(document).ready(function(){
     var resultNumbers = [];
     for (var index = 0; index <= numberInput; index +=1){
       resultNumbers.push(index);
+      // var resultStrings = resultNumbers.join('')
     };
     console.log(resultNumbers);
     console.log(resultNumbers.length);
@@ -17,10 +18,10 @@ $(document).ready(function(){
 
     resultNumbers = resultNumbers.map(function(num) {
       for (var index = 0; index <= resultNumbers.length; index +=1) {
-        if (num === 1){
-          return "test"
-        }
-          else if (num === 3) {
+        // if (num){
+        //   return "test"
+        // }
+        if (num === 3) {
           return " I'm sorry, Dave. I'm afraid I can't do that."
         } else if (num === 2){
           return " Boop!"
