@@ -20,14 +20,14 @@ $(document).ready(function(){
 
     resultNumbers = resultNumbers.map(function(num) {
       for (var index = 0; index <= resultNumbers.length; index +=1) {
-        if (num === 1) {
-          return " Beep!"
+
+        if (num === 3) {
+          return " I'm sorry, Dave. I'm afraid I can't do that."
         } else if (num === 2){
             return " Boop!"
-        } else if (num === 3) {
-          return " I'm sorry, Dave. I'm afraid I can't do that."
-        }
-        else if (num === index){
+        } else if (num === 1) {
+            return " Beep!"
+        } else if (num === index){
             return num
         }
   };

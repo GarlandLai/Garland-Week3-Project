@@ -8,12 +8,13 @@
 
 _This website will take a number input and return a range from 0 to the number inputted by the user. Except the numbers 1,2, and 3 will be replaced with a some text._
 
-##Specs
+##Specifications
 
-* _If the user enters a 0, return 0._
-* _If the user enters a 1, replace number with "Beep!"._
-* _If the user enters a 2, replace number with "Boop!"._
-* _If the user enters a 3, replace number with "I'm sorry, Dave. I'm afraid I can't do that."._
+* _If the number range contains numbers that do not contain a 1,2, or 3, return number as is._
+* _If the number range contains a 1, replace number with "Beep!"._
+* _If the number range contains a 2, replace number with "Boop!"._
+* _If the number range contains a 3, replace number with "I'm sorry, Dave. I'm afraid I can't do that."._
+* _If a number in the range contains more than one, return the higher number response._
 
 ## Setup/Installation Requirements
 
