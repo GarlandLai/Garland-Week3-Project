@@ -5,7 +5,6 @@ $(document).ready(function(){
     event.preventDefault();
     var numberInput = $("#userInput").val();
     var resultNumbers = [];
-
     for (var index = 0; index <= numberInput; index +=1){
       resultNumbers.push(index);
       // var resultStrings = resultNumbers.join('')
@@ -13,24 +12,26 @@ $(document).ready(function(){
     console.log(resultNumbers);
     console.log(resultNumbers.length);
 
+    var specialNumbers = [1, 2 , 3]
 
     //Business interface logic
-    var responseResult = [];
 
     resultNumbers = resultNumbers.map(function(num) {
-      for (var index = 0; index < resultNumbers.length; index +=1) {
-        var newResult = index.toString();
-        if (newResult.includes("3")) {
-          responseResult[index] = " I'm sorry, Dave. I'm afraid I can't do that."
-        } else if (newResult.includes("2")){
-          responseResult[index] = " Boop!"
-        } else if (newResult.includes("1")) {
-          responseResult[index] = " Beep!"
-        } else {
-          responseResult[index] = index
+      for (var index = 0; index <= resultNumbers.length; index +=1) {
+        // if (num){
+        //   return "test"
+        // }
+        if (num === 3) {
+          return " I'm sorry, Dave. I'm afraid I can't do that."
+        } else if (num === 2){
+          return " Boop!"
+        } else if (num === 1) {
+          return " Beep!"
+        } else if (num === index){
+          return num
         }
       };
     });
-    $("#output h3").text(responseResult);
+    $("#output h3").text(resultNumbers);
   });
 });
