@@ -14,7 +14,6 @@ _This website will take a number input and return a range from 0 to the number i
 * _If the number range contains a 1, replace number with "Beep!"._
 * _If the number range contains a 2, replace number with "Boop!"._
 * _If the number range contains a 3, replace number with "I'm sorry, Dave. I'm afraid I can't do that."._
-* _If a number in the range contains more than one, return the higher number response._
 
 ## Setup/Installation Requirements
 
@@ -26,7 +25,7 @@ _This website will take a number input and return a range from 0 to the number i
 
 ## Known Bugs
 
-* _Not able to find out how to apply on numbers with multiple digits._
+* _None known at this moment_
 
 ## Support and contact details
 
