@@ -10,13 +10,13 @@ _This website will take a number input and return a range from 0 to the number i
 
 ## Specifications
 
-| Behavior | Input | Output |
+_| Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
 | If number does not include a 1,2, or 3, return the number. | 4 | 4 |
 | If number does includes a 1, return "Beep" | 1 | Beep |
 | If number does includes a 1, return "Boop" | 2 | Boop |
 | If number does includes a 1, return "I'm sorry, Dave. I'm afraid I can't do that." | 3 | I'm sorry, Dave. I'm afraid I can't do that. |
-| If the number includes more than one 1,2, or 3; return the response for the higher number. | 123 | I'm sorry, Dave. I'm afraid I can't do that. |
+| If the number includes more than one 1,2, or 3; return the response for the higher number. | 123 | I'm sorry, Dave. I'm afraid I can't do that. |_
 
 ## Setup/Installation Requirements
 
