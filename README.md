@@ -6,14 +6,17 @@
 
 ## Description
 
-_This website will take a number input and return a range from 0 to the number inputted by the user. Except the numbers 1,2, and 3 will be replaced with a some text._
+_This website will take a number input and return a range from 0 to the number inputted by the user. Except the numbers 1,2, and 3 will be replaced with a some text See below specifications._
 
-##Specifications
+## Specifications
 
-* _If the number range contains numbers that do not contain a 1,2, or 3, return number as is._
-* _If the number range contains a 1, replace number with "Beep!"._
-* _If the number range contains a 2, replace number with "Boop!"._
-* _If the number range contains a 3, replace number with "I'm sorry, Dave. I'm afraid I can't do that."._
+| Behavior | Input | Output |
+| ------------- |:-------------:| -----:|
+| If number does not include a 1,2, or 3, return the number. | 4 | 4 |
+| If number does includes a 1, return "Beep" | 1 | Beep |
+| If number does includes a 1, return "Boop" | 2 | Boop |
+| If number does includes a 1, return "I'm sorry, Dave. I'm afraid I can't do that." | 3 | I'm sorry, Dave. I'm afraid I can't do that. |
+| If the number includes more than one 1,2, or 3; return the response for the higher number. | 123 | I'm sorry, Dave. I'm afraid I can't do that. |
 
 ## Setup/Installation Requirements
 
